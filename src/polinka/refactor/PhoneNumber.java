@@ -1,13 +1,18 @@
+package polinka.refactor;
 
 public class PhoneNumber {
-	private Num number;
+    private Number number;
 
-	public PhoneNumber(String number) {
-		this.number = new Num(number);
-	}
+    public PhoneNumber(String number) {
+        this.number = new Number(number);
+    }
 
-	public String getNumber() {
-		return number.getNumber();
-	}
-	
+    public String getNumber() {
+        return number.getNumber();
+    }
+
+    public void setNumber(String number) {
+        this.number = new Number(number);
+    }
 }
+
